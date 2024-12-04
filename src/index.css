@@ -81,3 +81,30 @@ body {
     color: var(--sx-color-neutral);
   }
 }
+
+.sx__month-grid-day.sx__saturday,
+.sx__month-grid-day.sx__sunday {
+  /*opacity: 1 !important;*/
+}
+
+.sx__month-grid-day:not(.sx__saturday):not(.sx__sunday):not(:has(.sx__month-grid-day__events > [draggable])) .sx__month-grid-day__header::after {
+  content: 'Disponibilidad de agenda';
+  position: absolute;
+  bottom: -20px;
+  left: 45%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: #595959;
+  background-color: #f2f2f2;
+  margin-left: 8px;
+  border-left: 5px solid #a0a0a0;
+  border-radius: 4px;
+  opacity: 0.7;
+  text-align: left;
+  padding: 2px 0 2px 4px;
+  width: 90%;
+}
+
+.sx__month-grid-day .sx__month-grid-day__header {
+  position: relative;
+}
