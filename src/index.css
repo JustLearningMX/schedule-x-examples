@@ -67,6 +67,11 @@ body {
     color: #594948;
 }
 
+.sx__month-grid-day > .sx__month-grid-day__header > .sx__month-grid-day__header-day-name {
+  font-size: .85rem;
+  font-weight: 600;
+}
+
 .sx__month-grid-day > .sx__month-grid-day__header > .sx__is-today {
   color: whitesmoke;
   font-size: .72rem;
@@ -99,7 +104,7 @@ body {
   margin-left: 8px;
   border-left: 5px solid #a0a0a0;
   border-radius: 4px;
-  opacity: 0.7;
+  opacity: 0.6;
   text-align: left;
   padding: 2px 0 2px 4px;
   width: 90%;

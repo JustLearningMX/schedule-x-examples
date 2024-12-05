@@ -11,6 +11,20 @@ export const ScheduleXBasic = () => {
             start: '2024-12-05 00:00',
             end: '2024-12-05 02:00',
             description: 'Description of event 1',
+        },
+        {
+            id: 2,
+            title: "Event0 2",
+            start: '2024-12-05 06:00',
+            end: '2024-12-05 08:00',
+            description: 'Description of evento 2',
+        },
+        {
+            id: 3,
+            title: "Evento 3",
+            start: '2024-12-27 13:00',
+            end: '2024-12-27 14:00',
+            description: 'Description of evento 3',
         }
     ]
 
